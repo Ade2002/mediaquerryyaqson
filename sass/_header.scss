@@ -3,9 +3,31 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 
-    .none {
-        display: none;
+    a {
+        color: black;
+
+        &:visited {
+            color: red;
+        }
+
+        &:active {
+            color: blue;
+        }
+    }
+
+    .navigate {
+        /* display: none; */
+        padding: 1em;
+        color: red;
+        position: absolute;
+        background-color: black;
+        width: 100%;
+        left: 0;
+        top: 50px;
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -15,6 +37,11 @@ header {
 
         .navigate {
             display: block;
+            padding: 0;
+            position: relative;
+            background-color: white;
+            width: 70%;
+            top: 0;
             color: rgba(21, 12, 33, 0.59);
         }
 

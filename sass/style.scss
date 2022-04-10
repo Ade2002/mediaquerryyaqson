@@ -1,1 +1,5 @@
-@use './' as *;
+@import "variables";
+@import "mixin";
+@import "classes";
+@import "reset";
+@import "header";
