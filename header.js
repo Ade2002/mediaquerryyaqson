@@ -11,5 +11,4 @@ mobile.addEventListener('click', (e) => {
 })
 window.addEventListener('click', (event) => {
     !nav.classList.contains("none") ? headerFunction() : "";
-    console.log(nav.classList)
 }) 
