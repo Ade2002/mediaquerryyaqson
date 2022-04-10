@@ -8,26 +8,3 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
-header{
-    padding: 1em;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.none{
-    display: none;
-}
-
-@media screen and (min-width: 800px) {
-    .navigate{
-        display: block;
-        color: rgba(21, 12, 33, 0.59);
-    }
-   
-    .mobile{
-        display: none;
-    }
-    header{
-        padding: 1em 4em;
-    }
-  }
